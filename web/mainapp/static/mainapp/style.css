@@ -1,0 +1,34 @@
+body{background-color: rgb(32, 32, 32);}
+h1{color: yellow;}
+.logo{
+    color: white; 
+    font-weight: bold; 
+    font-size: 5mm; 
+    padding: 1mm; 
+    position: relative; 
+    top: -2mm;
+    transition: color .3s;
+}
+.logo:hover{color: yellow;}
+nav{
+    background-color: rgb(47, 47, 47);
+    height: 20mm;
+    padding: 5mm;
+    border-bottom: 1mm solid gray;
+}
+nav .links{
+    margin-left: 10mm; 
+    font-size: 7mm; 
+    position: relative; 
+    top: -2mm;
+    text-decoration: none;
+    color: white;
+    transition: color .3s;
+}
+nav .links:hover{color: yellow;}
+
+nav img{margin-top: -5mm;}
+
+nav button{border: none; background-color: rgb(47, 47, 47);}
+
+nav .logoLink{text-decoration: none;}
